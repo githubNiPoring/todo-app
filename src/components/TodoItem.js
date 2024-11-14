@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-const API_BASE = "http://localhost:5000/todo";
+const API_BASE = "https://todo-api-supd.onrender.com/todo";
 
 function TodoItem(props) {
   const { name, id, setItems } = props;
