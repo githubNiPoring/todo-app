@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import TodoItem from "./TodoItem";
 
 //Add API base
-const API_BASE = "http://localhost:5000/todo";
+const API_BASE = "https://todo-api-supd.onrender.com/todo";
 
 function App() {
   const [items, setItems] = useState([]);
